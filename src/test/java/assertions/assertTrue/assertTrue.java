@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class assertTrue {
 
     @Test
-    public void assertTrueWithSemMensagem() {
+    public void assertTrueSemMensagem() {
         LivroService livroService = new LivroService();
 
         Livro livroRefatoracao = new Livro(1L, "Refatoração: Aperfeiçoando o Design de Códigos Existentes", "Novatec Editora", "Martin Fowler");
