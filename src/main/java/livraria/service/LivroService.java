@@ -26,6 +26,11 @@ public class LivroService {
         return null;
     }
 
+    public Livro getLivroByAutor(String autor) {
+        /* TO BE IMPLEMENTED - Tests on this method are disabled */
+        return null;
+    }
+
     public Livro getLivroByTitulo(String titulo) {
         for (Livro livro : listaDeLivros) {
             if (titulo.equals(livro.getTitulo())) {
