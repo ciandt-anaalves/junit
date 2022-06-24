@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 public class AssumeTrue {
 
-    // assumeTrue() -> Funciona apenas se o ambiente não for PROD
+    // assumeTrue() -> Funciona apenas se o ambiente for DEV
     @Test
     public void assumeTrueExemplo() {
         System.setProperty("ENV_SETUP", "DEV");
