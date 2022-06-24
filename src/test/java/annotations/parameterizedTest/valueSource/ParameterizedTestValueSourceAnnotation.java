@@ -1,4 +1,4 @@
-package test.java.annotations.parametrizedTest.valueSource;
+package test.java.annotations.parameterizedTest.valueSource;
 
 import main.java.livraria.model.Livro;
 import main.java.livraria.service.LivroService;
