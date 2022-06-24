@@ -29,7 +29,6 @@
 - assertSame
 - assertThat
 - assertThrows
-- assertThrowsExactly
 - assertTimeout
 - assertTimeoutPreemptively
 - assertTrue
