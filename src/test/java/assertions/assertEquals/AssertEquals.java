@@ -37,8 +37,8 @@ public class AssertEquals {
 
         Livro actualLivro = livroService.getLivroById(1L);
 
-        assertEquals(1L, actualLivro.getId());
         assertEquals("Refatoração: Aperfeiçoando o Design de Códigos Existentes", actualLivro.getTitulo(), "Titulo do livro não é igual!");
+        assertEquals(1L, actualLivro.getId(), "Id do livro não é igual!");
         assertEquals("Martin Fowler", actualLivro.getAutor(), "Autor do livro não é igual!");
     }
 
